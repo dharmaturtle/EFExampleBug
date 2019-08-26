@@ -8,7 +8,7 @@ namespace XUnitTestProject1 {
     public void Test1() {
       new EFExampleBugDb()
         .Comment
-        .GroupBy(x => x.Post.BlogId)
+        .GroupBy(x => x.PostId)
         .ToList();
     }
   }
